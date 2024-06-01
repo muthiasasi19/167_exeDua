@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
 }
 
 body {
@@ -12,9 +14,10 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+    
 }
 
-/*Video*/
+
 .Video{
     display: flex;
     justify-content: center;
@@ -23,14 +26,20 @@ body {
     margin-left: 8px;
 }
 
+.audio{
+    text-align: center;
+}
+
 .h6{
-    align-items: center;
+    text-align: center; 
+    margin-top: 20px; 
     padding-left: 20px;
+    margin: auto;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #cdaace;/* rgb(223, 173, 217);*/
+    background-color: rgb(109, 103, 108);/* rgb(223, 173, 217);*/
     color: #b766ba;
     padding: 5px 0;
 }
@@ -40,11 +49,15 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5px 0;
+    color: #fff;
+
 
 }
 
 .navbar h1 {
     font-size: 24px;
+    color: #fff;
+
 }
 
 .navbar ul {
@@ -54,6 +67,7 @@ body {
 
 .navbar ul li {
     margin-right: 20px;
+    
 }
 
 .navbar ul li a {
@@ -61,9 +75,9 @@ body {
     color: #fff;
 }
 
-/* Bagian Header */
+/* Header */
 .header {
-    background-color:rgb(231, 204, 228) ;
+    background-color:#635c64 ;
     padding: 5px 0;
 }
 
@@ -71,6 +85,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
+
 }
 
 
@@ -88,7 +104,7 @@ body {
 .next-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #c098c1;
+    background-color: #635c64;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -96,7 +112,7 @@ body {
 }
 
 .next-button:hover {
-    background-color: #c098c1;
+    background-color: #635c64;
 }
 
 
@@ -123,7 +139,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #c098c1;
+    background-color: #635c64;
     color: #fff;
     padding: 10px 0;
     text-align: center;
