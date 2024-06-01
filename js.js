@@ -8,7 +8,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     var kategoriTiket = document.getElementById('selectField').value;
     var metodePembayaran = document.querySelector('input[name="radioOptions"]:checked').value;
     var alamat = document.getElementById('textareaField').value;
-    var fotoProfil = document.getElementById('formFile').value; // Ingat bahwa Anda perlu logika khusus untuk menangani file input
+    var fotoProfil = document.getElementById('formFile').value; 
   
     // Menampilkan nilai input dalam alert
     var message = "Nama: " + nama + "\n";
