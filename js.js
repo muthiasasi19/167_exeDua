@@ -25,7 +25,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
       //  tindakan ketika dikonfirmasi
       alert('Pendaftaran berhasil!');
     } else {
-      // Lakukan tindakan ketika dibatalkan
+      //  tindakan ketika dibatalkan
       alert('Pendaftaran dibatalkan.');
     }
 });
