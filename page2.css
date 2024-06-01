@@ -1,10 +1,12 @@
 .body{
     background-color: #535ecf;
 }
-/*Button Back*/
+
 .buttonBack{
     text-align: center;
     margin-top: 20px;
+    
+
 }
 
 .back-button {
@@ -16,6 +18,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
 .back-button:hover {
     background-color: #535ecf;
 }
