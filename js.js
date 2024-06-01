@@ -17,7 +17,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     message += "Kategori Tiket: " + kategoriTiket + "\n";
     message += "Metode Pembayaran: " + metodePembayaran + "\n";
     message += "Alamat: " + alamat + "\n";
-    message += "Bukti Pembayaran: " + fotoProfil;
+    message += "Bukti Pembayaran: " + buktipembayaran;
   
     // Menampilkan alert dengan tombol konfirmasi dan batal
     var confirmation = confirm(message +"\n\nApakah Anda ingin melanjutkan pendaftaran?");
