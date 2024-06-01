@@ -8,24 +8,24 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     var kategoriTiket = document.getElementById('selectField').value;
     var metodePembayaran = document.querySelector('input[name="radioOptions"]:checked').value;
     var alamat = document.getElementById('textareaField').value;
-    var fotoProfil = document.getElementById('formFile').value; 
+    var fotoProfil = document.getElementById('formFile').value; // Ingat bahwa Anda perlu logika khusus untuk menangani file input
   
-    // Menampilkan nilai input pada alert
+    // Menampilkan nilai input dalam alert
     var message = "Nama: " + nama + "\n";
     message += "Kota Konser: " + kotaAcara + "\n";
     message += "Tanggal Konser: " + tanggalAcara + "\n";
     message += "Kategori Tiket: " + kategoriTiket + "\n";
     message += "Metode Pembayaran: " + metodePembayaran + "\n";
     message += "Alamat: " + alamat + "\n";
-    message += "Bukti Pembayaran: " + buktipembayaran;
+    message += "Bukti Pembayaran: " + fotoProfil;
   
     // Menampilkan alert dengan tombol konfirmasi dan batal
     var confirmation = confirm(message +"\n\nApakah Anda ingin melanjutkan pendaftaran?");
     if (confirmation) {
-      //  tindakan ketika dikonfirmasi
+      // Lakukan tindakan ketika dikonfirmasi
       alert('Pendaftaran berhasil!');
     } else {
-      //  tindakan ketika dibatalkan
+      // Lakukan tindakan ketika dibatalkan
       alert('Pendaftaran dibatalkan.');
     }
 });
